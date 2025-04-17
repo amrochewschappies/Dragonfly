@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import EventData from '../Data/EventDataHandler';
+import { FavouritesContext } from '../context/FavouriteContext';
 
 function EventDetailsPage() {
   const {eventID} = useParams();
 
   const [selectedEvent, setSelectedEvent] = useState([]);
+
+  const {updateFavourites} = useContext(FavouritesContext);
 
   useEffect(() => {
     if (eventID){
@@ -14,7 +17,7 @@ function EventDetailsPage() {
   }, [eventID])
 
   const setFavourite = () => {
-    
+    updateFavourites(eventID);
   }
 
   return (

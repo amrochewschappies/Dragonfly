@@ -14,12 +14,6 @@ function FavouritesPage() {
     }
   }, [favouritesIDs]);
 
-  useEffect(() => {
-    if (eventsArray) {
-      console.log(eventsArray);
-    }
-  }, [eventsArray]);
-
   return (
     <div>
       <ul>
