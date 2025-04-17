@@ -3,10 +3,15 @@ import { createContext, useState } from 'react';
 export const FavouritesContext = createContext();
 
 function FavouritesProvider({ children }) {
-  const [favouritesIDs, setFavouritesIds] = useState(["1", "0"]);
+  const [favouritesIDs, setFavouritesIds] = useState(["0"]);
 
   const updateFavourites = (newId) => {
-    setFavouritesIds((prevFavourites) => [...prevFavourites, newId]);
+    if (favouritesIDs.includes(newId)){
+        setFavouritesIds(favouritesIDs.filter((item) => item !== newId))
+    }
+    else{
+        setFavouritesIds((prevFavourites) => [...prevFavourites, newId]);
+    }
   };
 
   return (
