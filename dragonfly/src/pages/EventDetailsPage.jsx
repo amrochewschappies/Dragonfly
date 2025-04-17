@@ -13,6 +13,10 @@ function EventDetailsPage() {
     }
   }, [eventID])
 
+  const setFavourite = () => {
+    
+  }
+
   return (
     <div>
       <h1>This is the events details page</h1>
@@ -24,6 +28,7 @@ function EventDetailsPage() {
         <li>{selectedEvent.price}</li>
         <li>{selectedEvent.description}</li>
         <li>{selectedEvent.genre}</li>
+        <button onClick={setFavourite}>Favourite</button>
       </ul>
       
     </div>

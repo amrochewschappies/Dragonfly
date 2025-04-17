@@ -9,15 +9,14 @@ import NavigationBar from "./components/NavigationBar";
 function App() {
   return (
     <BrowserRouter>
-      <NavigationBar />
-      <Routes>
-        <Route path="/" element={<HomePage />}/>
-        <Route path="/favourites" element={<FavouritesPage />}/>
-        <Route path="/events" element={<EventsPage />}/>
-        <Route path="/event/:eventID" element={<EventDetailsPage />}/>
-      </Routes>
       <div className="App">
-
+        <NavigationBar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/favourites" element={<FavouritesPage />} />
+          <Route path="/events" element={<EventsPage />} />
+          <Route path="/event/:eventID" element={<EventDetailsPage />} />
+        </Routes>
       </div>
     </BrowserRouter>
   );
