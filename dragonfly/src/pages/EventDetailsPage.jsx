@@ -9,25 +9,22 @@ function EventDetailsPage() {
 
   useEffect(() => {
     if (eventID){
-      setSelectedEvent(EventData[eventID]);
-      console.log(EventData[eventID]);
-      //console.log(selectedEvent);
+      setSelectedEvent(EventData[parseInt(eventID)]);
     }
   }, [eventID])
-
 
   return (
     <div>
       <h1>This is the events details page</h1>
-      {/* <ul>
-        {selectedEvent.map((detail) => {
-          return (
-            <li>
-              {detail}
-            </li>
-          )
-        })}
-      </ul> */}
+      <ul>
+        <li>{selectedEvent.name}</li>
+        <li>{selectedEvent.image}</li>
+        <li>{selectedEvent.location}</li>
+        <li>{selectedEvent.date}</li>
+        <li>{selectedEvent.price}</li>
+        <li>{selectedEvent.description}</li>
+        <li>{selectedEvent.genre}</li>
+      </ul>
       
     </div>
   )
