@@ -6,7 +6,7 @@ const EventData = [
         date: "date",
         price: "price",
         description: "description",
-        genre: "genre",
+        genre: "Music",
     },
     {
         name: "Second Event name", 
@@ -15,7 +15,27 @@ const EventData = [
         date: "Second date",
         price: "Second price",
         description: "Second description",
-        genre: "Second genre",
+        genre: "Kids",
+    }
+    ,
+    {
+        name: "Second Event name", 
+        image: "Second mock url", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Activites",
+    }
+    ,
+    {
+        name: "Second Event name", 
+        image: "Second mock url", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Comedy",
     }
 ]
 
