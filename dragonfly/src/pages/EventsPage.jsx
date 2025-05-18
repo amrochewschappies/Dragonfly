@@ -1,11 +1,13 @@
 import React from "react";
 import EventCards from "../components/EventCards";
 import Filters from "../components/Filters";
+import SearchBar from "../components/SearchBar";
+import "./EventsPage.css"
 
 function EventsPage() {
   return (
     <div>
-      <h1>This is the events apge</h1>
+      <SearchBar />
       <Filters />
       <EventCards />
     </div>

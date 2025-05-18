@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import EventData from "../Data/EventDataHandler";
+import EventData from "../data/EventDataHandler";
 import { FiltersContex } from "../context/FiltersContext";
 
 function EventCards() {
@@ -20,14 +20,11 @@ function EventCards() {
       if (isFiltering) {
         if (event.genre == filterType) {
           return (
-            <li key={index}>
+            <li key={index} className='event-card'>
+              <img src={event.image} className="event-image"></img>
               <h3>{event.name}</h3>
-              <p>{event.image}</p>
-              <p>{event.location}</p>
               <p>{event.date}</p>
-              <p>{event.description}</p>
-              <p>{event.genre}</p>
-              <button
+              <button className="view-event-button"
                 onClick={(e) => {
                   OnViewClick(index, e);
                 }}
@@ -39,14 +36,11 @@ function EventCards() {
         }
       } else {
         return (
-          <li key={index}>
+          <li key={index} className='event-card'>
+            <img src={event.image} className="event-image"></img>
             <h3>{event.name}</h3>
-            <p>{event.image}</p>
-            <p>{event.location}</p>
             <p>{event.date}</p>
-            <p>{event.description}</p>
-            <p>{event.genre}</p>
-            <button
+            <button className="view-event-button"
               onClick={(e) => {
                 OnViewClick(index, e);
               }}
@@ -63,7 +57,7 @@ function EventCards() {
 
   return (
     <nav>
-      <ul>{displayedEvents}</ul>
+      <ul className="events-container">{displayedEvents}</ul>
     </nav>
   );
 }

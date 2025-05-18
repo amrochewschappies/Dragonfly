@@ -1,7 +1,7 @@
 const EventData = [
     {
         name: "Event name", 
-        image: "mock url", 
+        image: "/Images/Yoga.jpg", 
         location: "Location",
         date: "date",
         price: "price",
@@ -10,7 +10,7 @@ const EventData = [
     },
     {
         name: "Second Event name", 
-        image: "Second mock url", 
+        image: "/Images/Car Show.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -20,7 +20,7 @@ const EventData = [
     ,
     {
         name: "Second Event name", 
-        image: "Second mock url", 
+        image: "/Images/Lego.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
@@ -30,7 +30,17 @@ const EventData = [
     ,
     {
         name: "Second Event name", 
-        image: "Second mock url", 
+        image: "/Images/Party.jpg", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Comedy",
+    }
+    ,
+    {
+        name: "Second Event name", 
+        image: "/Images/Origami.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",

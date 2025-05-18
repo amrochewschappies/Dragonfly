@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import EventData from '../Data/EventDataHandler';
+import EventData from '../data/EventDataHandler';
 import { FavouritesContext } from '../context/FavouriteContext';
 
 function EventDetailsPage() {
