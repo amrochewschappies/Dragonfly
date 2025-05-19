@@ -18,7 +18,7 @@ function Filters() {
   }
 
   return (
-    <ul>
+    <ul id="filters-container">
       <button onClick={(e) => {updateFilter(e)}} style={{backgroundColor : selectedFilter == "Music" ? "yellow" : "white"}}>Music</button>
       <button onClick={(e) => {updateFilter(e)}} style={{backgroundColor : selectedFilter == "Comedy" ? "yellow" : "white"}}>Comedy</button>
       <button onClick={(e) => {updateFilter(e)}} style={{backgroundColor : selectedFilter == "Activities" ? "yellow" : "white"}}>Activities</button>

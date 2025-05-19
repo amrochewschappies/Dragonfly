@@ -56,7 +56,7 @@ function EventCards() {
   }, [filterType]);
 
   return (
-    <nav>
+    <nav id="parent-container">
       <ul className="events-container">{displayedEvents}</ul>
     </nav>
   );

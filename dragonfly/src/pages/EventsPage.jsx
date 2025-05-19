@@ -1,16 +1,18 @@
-import React from "react";
+import React, { Fragment } from "react";
 import EventCards from "../components/EventCards";
 import Filters from "../components/Filters";
 import SearchBar from "../components/SearchBar";
-import "./EventsPage.css"
+import "./EventsPage.css";
 
 function EventsPage() {
   return (
-    <div>
+    <Fragment>
       <SearchBar />
-      <Filters />
-      <EventCards />
-    </div>
+      <div id="main-container">
+        <Filters />
+        <EventCards />
+      </div>
+    </Fragment>
   );
 }
 
