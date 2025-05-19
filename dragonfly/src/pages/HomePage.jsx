@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Hero from '../components/Hero'
+import EventOTD from '../components/EventOTD'
+import EventsCTA from '../components/EventsCTA'
+import "./HomePage.css"
 
 function HomePage() {
   return (
-    <div>
-      <h1>This is the home page</h1>
-    </div>
+    <Fragment>
+      <Hero />
+      <EventOTD />
+      <EventsCTA />
+    </Fragment>
   )
 }
 
