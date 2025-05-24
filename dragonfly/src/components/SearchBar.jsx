@@ -8,6 +8,7 @@ function SearchBar() {
   return (
     <input
       type="text"
+      autocomplete="off"
       placeholder="search"
       id="search-bar"
       onChange={(event) => {

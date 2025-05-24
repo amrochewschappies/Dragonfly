@@ -5,6 +5,7 @@ import FavouritesPage from "./pages/FavouritesPage";
 import EventsPage from "./pages/EventsPage";
 import EventDetailsPage from "./pages/EventDetailsPage";
 import NavigationBar from "./components/NavigationBar";
+import "./pages/GeneralStyling.css"
 
 function App() {
   return (

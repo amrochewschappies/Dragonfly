@@ -10,29 +10,19 @@
 .events-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-right: 2%;
 }
 
 .event-image{
     aspect-ratio: 16/9;
-    width: 70%;
+    width: 83%;
     border-radius: 12px;
-}
-
-.event-card h3 {
-    padding: 0 0 0 22%;
-    font-weight: 250;
-    text-align: left; 
-}
-
-.event-card p {
-    padding: 0 0 0 22%;
-    text-align: left; 
 }
 
 #main-container{
     display: flex;
     flex-direction: row-reverse;
-    padding: 2%;
+    padding:  2%;
 }
 
 #parent-container{
@@ -42,15 +32,44 @@
 #filters-container{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
     padding: 2%;
+    height: 60vh;
+    border-left: solid;
+    border-color: #FFC107;
+    gap: 5%;
+    align-items: flex-start;
+    padding-left: 60px;
 }
 
-#search-bar{
-    width: 70vw;
+.filter-option{
+    border: none;
+    font-size: medium;
+}
+
+#search-bar {
+    width: 55vw;
+    height: 5vh;
+    border-radius: 20px; 
+    border: 1px solid #ccc; 
+    padding: 0 1em; 
+    font-size: 1em;
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
     position: relative;
-    padding-left: 0;
-    margin-left: 0;
+    right: 14.5%;
+    margin-top: 2em;
+}
+
+#event-name{
+    text-align: left;
+    padding-left: 2.5em;
+    font-size: 1.2em;
+}
+
+#event-date{
+    text-align: left;
+    padding-left: 2.99em;
 }
 
 @media (min-width: 1200px) {

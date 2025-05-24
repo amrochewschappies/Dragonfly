@@ -19,11 +19,12 @@ function Filters() {
 
   return (
     <ul id="filters-container">
-      <button onClick={(e) => {updateFilter(e)}} style={{backgroundColor : selectedFilter == "Music" ? "yellow" : "white"}}>Music</button>
-      <button onClick={(e) => {updateFilter(e)}} style={{backgroundColor : selectedFilter == "Comedy" ? "yellow" : "white"}}>Comedy</button>
-      <button onClick={(e) => {updateFilter(e)}} style={{backgroundColor : selectedFilter == "Activities" ? "yellow" : "white"}}>Activities</button>
-      <button onClick={(e) => {updateFilter(e)}} style={{backgroundColor : selectedFilter == "Kids" ? "yellow" : "white"}}>Kids</button>
-      <button onClick={(e) => {removeFilters(e)}} style={{backgroundColor : selectedFilter == "None" ? "yellow" : "white"}}>None</button>
+      <p style={{textDecoration : "underline", textUnderlineOffset: "6px"}}>Filters</p>
+      <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{backgroundColor : selectedFilter == "Music" ? "yellow" : "white"}}>Music</button>
+      <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{backgroundColor : selectedFilter == "Comedy" ? "yellow" : "white"}}>Comedy</button>
+      <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{backgroundColor : selectedFilter == "Activities" ? "yellow" : "white"}}>Activities</button>
+      <button onClick={(e) => {updateFilter(e)}} className="filter-option" style={{backgroundColor : selectedFilter == "Kids" ? "yellow" : "white"}}>Kids</button>
+      <button onClick={(e) => {removeFilters(e)}} className="filter-option" style={{backgroundColor : selectedFilter == "None" ? "yellow" : "white"}}>None</button>
     </ul>
   );
 }

@@ -53,8 +53,8 @@ function EventCards() {
         {currentEvents.map((event, index) => (
           <li key={indexOfFirstEvent + index} className="event-card">
             <img src={event.image} className="event-image" alt={event.name} />
-            <h3>{event.name}</h3>
-            <p>{event.date}</p>
+            <p id="event-name">{event.name}</p>
+            <p id="event-date">{event.date}</p>
             <button
               className="view-event-button"
               onClick={(e) => OnViewClick(indexOfFirstEvent + index, e)}
