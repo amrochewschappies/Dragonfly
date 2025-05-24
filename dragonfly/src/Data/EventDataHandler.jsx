@@ -1,6 +1,6 @@
 const EventData = [
     {
-        name: "Event name", 
+        name: "Shosholoza", 
         image: "/Images/Yoga.jpg", 
         location: "Location",
         date: "date",
@@ -9,7 +9,7 @@ const EventData = [
         genre: "Music",
     },
     {
-        name: "Second Event name", 
+        name: "Bums Shaking", 
         image: "/Images/Car Show.jpg", 
         location: "Second Location",
         date: "Second date",
@@ -19,7 +19,7 @@ const EventData = [
     }
     ,
     {
-        name: "Second Event name", 
+        name: "Loyaring Class", 
         image: "/Images/Lego.jpg", 
         location: "Second Location",
         date: "Second date",
@@ -29,7 +29,7 @@ const EventData = [
     }
     ,
     {
-        name: "Second Event name", 
+        name: "Speed Dating", 
         image: "/Images/Party.jpg", 
         location: "Second Location",
         date: "Second date",
@@ -39,14 +39,110 @@ const EventData = [
     }
     ,
     {
-        name: "Second Event name", 
+        name: "Stevovo Harvey", 
         image: "/Images/Origami.jpg", 
         location: "Second Location",
         date: "Second date",
         price: "Second price",
         description: "Second description",
         genre: "Comedy",
+    },
+    {
+        name: "Cars n shit", 
+        image: "/Images/Yoga.jpg", 
+        location: "Location",
+        date: "date",
+        price: "price",
+        description: "description",
+        genre: "Music",
+    },
+    {
+        name: "Pop Smoke", 
+        image: "/Images/Car Show.jpg", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Kids",
     }
+    ,
+    {
+        name: "Hey Neihbour", 
+        image: "/Images/Lego.jpg", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Activites",
+    }
+    ,
+    {
+        name: "Fesitval", 
+        image: "/Images/Party.jpg", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Comedy",
+    }
+    ,
+    {
+        name: "Game Dev Meetup", 
+        image: "/Images/Origami.jpg", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Comedy",
+    },
+    {
+        name: "Koda Event", 
+        image: "/Images/Yoga.jpg", 
+        location: "Location",
+        date: "date",
+        price: "price",
+        description: "description",
+        genre: "Music",
+    },
+    {
+        name: "Clay Class", 
+        image: "/Images/Car Show.jpg", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Kids",
+    }
+    ,
+    {
+        name: "Mlungisi Run", 
+        image: "/Images/Lego.jpg", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Activites",
+    }
+    ,
+    {
+        name: "Clash Rouale Tournament", 
+        image: "/Images/Party.jpg", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Comedy",
+    }
+    ,
+    {
+        name: "Matswele showdown", 
+        image: "/Images/Origami.jpg", 
+        location: "Second Location",
+        date: "Second date",
+        price: "Second price",
+        description: "Second description",
+        genre: "Comedy",
+    },
 ]
 
 export default EventData

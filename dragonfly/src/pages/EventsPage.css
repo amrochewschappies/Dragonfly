@@ -36,12 +36,10 @@
 }
 
 #parent-container{
-    background-color: bisque;
     width: 100%;
 }
 
 #filters-container{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     width: 40%;

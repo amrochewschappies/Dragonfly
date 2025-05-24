@@ -9,13 +9,13 @@ function NavigationBar() {
         <img src="/images/Lego.jpg" alt="Dragonfly Logo" className='logo'/>
         <ul className='nav-bar'>
             <li>
-                <Link to={"/"}>Home</Link>
+                <Link to={"/"}><span className='responsiveness-hide'>1.</span> Home</Link>
             </li>
             <li>
-                <Link to={"/events"}>Events</Link>
+                <Link to={"/events"}><span className='responsiveness-hide'>2.</span> Events</Link>
             </li>
             <li>
-                <Link to={"/favourites"}>Favourites</Link>
+                <Link to={"/favourites"}><span className='responsiveness-hide'>3.</span> Favourites</Link>
             </li>
         </ul>
     </nav>

@@ -5,6 +5,7 @@ import App from "./App";
 import FavouritesProvider from "./context/FavouriteContext";
 import FiltersContextProvider from "./context/FiltersContext";
 import EventOTDContextProvider from "./context/EventOTDContext";
+import SearchContextProvider from "./context/SearchContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,7 +13,9 @@ root.render(
     <FavouritesProvider>
       <FiltersContextProvider>
         <EventOTDContextProvider>
-          <App />
+          <SearchContextProvider>
+            <App />
+          </SearchContextProvider>
         </EventOTDContextProvider>
       </FiltersContextProvider>
     </FavouritesProvider>
