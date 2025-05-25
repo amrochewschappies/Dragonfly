@@ -5,12 +5,11 @@ import { FiltersContex } from "../context/FiltersContext";
 
 function EventCards() {
   const { isFiltering, filterType } = useContext(FiltersContex);
-
   const navigate = useNavigate();
 
   const [filteredEvents, setFilteredEvents] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const eventsPerPage = 4; 
+  const eventsPerPage = 4;
 
   const OnViewClick = (eventId, e) => {
     e.preventDefault();
@@ -32,16 +31,27 @@ function EventCards() {
 
   const indexOfLastEvent = currentPage * eventsPerPage;
   const indexOfFirstEvent = indexOfLastEvent - eventsPerPage;
-  const currentEvents = filteredEvents.slice(indexOfFirstEvent, indexOfLastEvent);
+  const currentEvents = filteredEvents.slice(
+    indexOfFirstEvent,
+    indexOfLastEvent
+  );
 
   const totalPages = Math.ceil(filteredEvents.length / eventsPerPage);
 
   return (
     <nav id="parent-container">
       <ul className="events-container">
-        {currentEvents.map((event, index) => (
-          <li key={indexOfFirstEvent + index} className="event-card"  onClick={(e) => OnViewClick(indexOfFirstEvent + index, e)}>
-            <img src={event.image} className="event-image" alt={event.name} />
+        {currentEvents.map((event) => (
+          <li
+            key={event.id}
+            className="event-card"
+            onClick={(e) => OnViewClick(event.id, e)}
+          >
+            <img
+              src={event.image}
+              className="event-image"
+              alt={event.name}
+            />
             <p id="event-name">{event.name}</p>
             <p id="event-date">{event.date}</p>
           </li>
@@ -51,7 +61,7 @@ function EventCards() {
       <ul className="pagination-buttons">
         {Array.from({ length: totalPages }, (_, i) => (
           <button
-            key={i}
+            key={i + 1}
             onClick={() => setCurrentPage(i + 1)}
             className={currentPage === i + 1 ? "active-page" : ""}
           >

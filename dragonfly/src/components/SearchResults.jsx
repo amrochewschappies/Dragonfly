@@ -1,7 +1,7 @@
 import React from "react";
 import EventData from "../data/EventDataHandler";
 import { SearchContext } from "../context/SearchContext";
-import { useContext } from "react";
+import { useContext, Fragment } from "react";
 import { useNavigate } from "react-router-dom";
 
 function SearchResults() {
@@ -23,21 +23,34 @@ function SearchResults() {
       event.name.toLowerCase().includes(searchInput.toLowerCase())
   );
 
-  return (
+  const OnReturnClick = () => {
+    navigate("/events")
+  }
+
+   return (
     <nav id="parent-container">
-      <ul className="events-container">
-        {updatedEvents.map((event) => (
-          <li
-            key={event.name}
-            className="event-card"
-            onClick={(e) => OnViewClick(EventData.indexOf(event), e)}
-          >
-            <img src={event.image} className="event-image" alt={event.name} />
-            <p id="event-name">{event.name}</p>
-            <p id="event-date">{event.date}</p>
-          </li>
-        ))}
-      </ul>
+      {updatedEvents.length > 0 ? (
+        <ul className="events-container">
+          {updatedEvents.map((event) => (
+            <li
+              key={event.name}
+              className="event-card"
+              onClick={(e) => OnViewClick(EventData.indexOf(event), e)}
+            >
+              <img src={event.image} className="event-image" alt={event.name} />
+              <p id="event-name">{event.name}</p>
+              <p id="event-date">{event.date}</p>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <Fragment>
+          <p style={{ textAlign: "center", padding: "2rem"}}>
+            No results found for "<strong>{searchInput}</strong>"
+          </p>
+          <button onClick={OnReturnClick}>return</button>
+        </Fragment>
+      )}
     </nav>
   );
 }

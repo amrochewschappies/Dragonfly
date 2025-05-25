@@ -1,5 +1,6 @@
 const EventData = [
     {
+        id: 0,
         name: "Shosholoza", 
         image: "/Images/Yoga.jpg", 
         location: "Location",
@@ -9,6 +10,7 @@ const EventData = [
         genre: "Music",
     },
     {
+        id: 1,
         name: "Bums Shaking", 
         image: "/Images/Car Show.jpg", 
         location: "Second Location",
@@ -16,9 +18,9 @@ const EventData = [
         price: "Second price",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Kids",
-    }
-    ,
+    },
     {
+        id: 2,
         name: "Loyaring Class", 
         image: "/Images/Lego.jpg", 
         location: "Second Location",
@@ -26,9 +28,9 @@ const EventData = [
         price: "Second price",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Activites",
-    }
-    ,
+    },
     {
+        id: 3,
         name: "Speed Dating", 
         image: "/Images/Party.jpg", 
         location: "Second Location",
@@ -36,9 +38,9 @@ const EventData = [
         price: "Second price",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Comedy",
-    }
-    ,
+    },
     {
+        id: 4,
         name: "Stevovo Harvey", 
         image: "/Images/Origami.jpg", 
         location: "Second Location",
@@ -48,6 +50,7 @@ const EventData = [
         genre: "Comedy",
     },
     {
+        id: 5,
         name: "Cars n shit", 
         image: "/Images/Yoga.jpg", 
         location: "Location",
@@ -57,6 +60,7 @@ const EventData = [
         genre: "Music",
     },
     {
+        id: 6,
         name: "Pop Smoke", 
         image: "/Images/Car Show.jpg", 
         location: "Second Location",
@@ -64,9 +68,9 @@ const EventData = [
         price: "Second price",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Kids",
-    }
-    ,
+    },
     {
+        id: 7,
         name: "Hey Neihbour", 
         image: "/Images/Lego.jpg", 
         location: "Second Location",
@@ -74,9 +78,9 @@ const EventData = [
         price: "Second price",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Activites",
-    }
-    ,
+    },
     {
+        id: 8,
         name: "Fesitval", 
         image: "/Images/Party.jpg", 
         location: "Second Location",
@@ -84,9 +88,9 @@ const EventData = [
         price: "Second price",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Comedy",
-    }
-    ,
+    },
     {
+        id: 9,
         name: "Game Dev Meetup", 
         image: "/Images/Origami.jpg", 
         location: "Second Location",
@@ -96,6 +100,7 @@ const EventData = [
         genre: "Comedy",
     },
     {
+        id: 10,
         name: "Koda Event", 
         image: "/Images/Yoga.jpg", 
         location: "Location",
@@ -105,6 +110,7 @@ const EventData = [
         genre: "Music",
     },
     {
+        id: 11,
         name: "Clay Class", 
         image: "/Images/Car Show.jpg", 
         location: "Second Location",
@@ -115,6 +121,7 @@ const EventData = [
     }
     ,
     {
+        id: 12,
         name: "Mlungisi Run", 
         image: "/Images/Lego.jpg", 
         location: "Second Location",
@@ -122,9 +129,9 @@ const EventData = [
         price: "Second price",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Activites",
-    }
-    ,
+    },
     {
+        id: 13,
         name: "Clash Rouale Tournament", 
         image: "/Images/Party.jpg", 
         location: "Second Location",
@@ -132,9 +139,9 @@ const EventData = [
         price: "Second price",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Comedy",
-    }
-    ,
+    },
     {
+        id: 14,
         name: "Matswele showdown", 
         image: "/Images/Origami.jpg", 
         location: "Second Location",

@@ -69,6 +69,10 @@ main{
     transition: all 0.4s;
 }
 
+#search-bar{
+    
+}
+
 #cta-button:hover{
     background-color:  #fffcf3;
 }

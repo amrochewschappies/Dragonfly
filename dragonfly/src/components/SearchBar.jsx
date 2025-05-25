@@ -22,7 +22,7 @@ function SearchBar() {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        autoComplete="off"
+        autocomplete="off"
         placeholder="search"
         id="search-bar"
         value={localInput}
