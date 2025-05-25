@@ -1,0 +1,33 @@
+#favourites-container{
+    display: block;
+    text-align: left; 
+    padding-right: 22%;
+}
+
+.event-cards{
+    display: flex;
+    padding-top: 2%;
+}
+
+.event-images{
+    aspect-ratio: 16/9;
+    width: 80%;
+    border-radius: 12px;
+}
+
+.flex-display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trash-icon{
+    transition: all 0.5s ease;
+    fill: #fffcf3;
+    position: relative;
+    margin-top: 2%;
+    right: 20%;
+}
+
+.trash-icon:hover{
+    fill: rgb(75, 75, 75);
+}
