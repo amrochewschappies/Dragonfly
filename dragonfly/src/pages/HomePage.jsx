@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import SearchBar from '../components/SearchBar'
 import "./HomePage.css"
 
+
 function HomePage() {
   return (
     <Fragment>

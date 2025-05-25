@@ -6,12 +6,14 @@ import EventsPage from "./pages/EventsPage";
 import EventDetailsPage from "./pages/EventDetailsPage";
 import SearchPage from "./pages/SearchPage";
 import NavigationBar from "./components/NavigationBar";
+import Cursor from "./components/Cursor";
 import "./pages/GeneralStyling.css"
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <Cursor />
         <NavigationBar />
         <Routes>
           <Route path="/" element={<HomePage />} />

@@ -15,6 +15,14 @@
     gap: 2%;
 }
 
+#first-part{
+    transition: transform 0.2s ease;
+}
+
+#first-part:hover{
+  transform: scale(1.02);
+}
+
 main{
     width: 80%;
     margin: 0 auto; 
