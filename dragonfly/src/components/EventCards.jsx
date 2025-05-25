@@ -51,16 +51,10 @@ function EventCards() {
     <nav id="parent-container">
       <ul className="events-container">
         {currentEvents.map((event, index) => (
-          <li key={indexOfFirstEvent + index} className="event-card">
+          <li key={indexOfFirstEvent + index} className="event-card"  onClick={(e) => OnViewClick(indexOfFirstEvent + index, e)}>
             <img src={event.image} className="event-image" alt={event.name} />
             <p id="event-name">{event.name}</p>
             <p id="event-date">{event.date}</p>
-            <button
-              className="view-event-button"
-              onClick={(e) => OnViewClick(indexOfFirstEvent + index, e)}
-            >
-              View Event
-            </button>
           </li>
         ))}
       </ul>

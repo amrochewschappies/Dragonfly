@@ -45,6 +45,13 @@
 .filter-option{
     border: none;
     font-size: medium;
+    background-color: rgba(255, 255, 255, 0) !important;
+    text-underline-offset: 4px;
+}
+
+.filter-option:hover{
+    transition: all 0.3s;
+    color: #FFC107;
 }
 
 #search-bar {
@@ -70,6 +77,14 @@
 #event-date{
     text-align: left;
     padding-left: 2.99em;
+}
+
+.event-card {
+  transition: transform 0.2s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
 }
 
 @media (min-width: 1200px) {
