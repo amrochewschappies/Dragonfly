@@ -4,7 +4,7 @@ import EventData from "../data/EventDataHandler";
 import { FiltersContex } from "../context/FiltersContext";
 
 function EventCards() {
-  const { isFiltering, filterType } = useContext(FiltersContex);
+  const { isFiltering, setIsFiltering, filterType, setFilterType } = useContext(FiltersContex);
   const navigate = useNavigate();
 
   const [filteredEvents, setFilteredEvents] = useState([]);
@@ -13,6 +13,8 @@ function EventCards() {
 
   const OnViewClick = (eventId, e) => {
     e.preventDefault();
+    setIsFiltering(false);
+    setFilterType("none");
     navigate("/event/" + eventId);
   };
 

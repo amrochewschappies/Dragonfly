@@ -3,9 +3,12 @@ import EventData from "../data/EventDataHandler";
 import { SearchContext } from "../context/SearchContext";
 import { useContext, Fragment } from "react";
 import { useNavigate } from "react-router-dom";
+import { FiltersContex } from "../context/FiltersContext";
 
 function SearchResults() {
   const { searchInput } = useContext(SearchContext);
+  
+  const { setIsFiltering, setFilterType } = useContext(FiltersContex);
 
   let updatedEvents = EventData;
 
@@ -13,6 +16,8 @@ function SearchResults() {
 
   const OnViewClick = (eventId, e) => {
     e.preventDefault();
+    setIsFiltering(false);
+    setFilterType("none");
     navigate("/event/" + eventId);
   };
 
