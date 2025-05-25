@@ -2,11 +2,9 @@ import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import EventData from "../data/EventDataHandler";
 import { FiltersContex } from "../context/FiltersContext";
-import { SearchContext } from "../context/SearchContext";
 
 function EventCards() {
   const { isFiltering, filterType } = useContext(FiltersContex);
-  const { isSearching, searchInput } = useContext(SearchContext);
 
   const navigate = useNavigate();
 
@@ -28,18 +26,9 @@ function EventCards() {
       );
     }
 
-    if (isSearching && searchInput) {
-      updatedEvents = updatedEvents.filter(
-        (event) =>
-          event.name &&
-          typeof event.name === "string" &&
-          event.name.toLowerCase().includes(searchInput.toLowerCase())
-      );
-    }
-
     setFilteredEvents(updatedEvents);
     setCurrentPage(1);
-  }, [isFiltering, filterType, isSearching, searchInput]);
+  }, [isFiltering, filterType]);
 
   const indexOfLastEvent = currentPage * eventsPerPage;
   const indexOfFirstEvent = indexOfLastEvent - eventsPerPage;

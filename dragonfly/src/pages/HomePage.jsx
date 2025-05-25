@@ -4,16 +4,20 @@ import EventOTD from '../components/EventOTD'
 import EventsCTA from '../components/EventsCTA'
 import Highligts from '../components/Highligts'
 import Footer from '../components/Footer'
+import SearchBar from '../components/SearchBar'
 import "./HomePage.css"
 
 function HomePage() {
   return (
     <Fragment>
-      <Hero />
-      <EventOTD />
-      <EventsCTA />
-      <Highligts />
-      <Footer />
+      <main>
+        <Hero />
+        <SearchBar />
+        <EventOTD />
+        <EventsCTA />
+        <Highligts />
+        <Footer />
+      </main>
     </Fragment>
   )
 }

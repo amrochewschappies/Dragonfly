@@ -1,12 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 function Hero() {
   return (
-    <div>
-      <p>
-        <span>Dragon</span><span>fly</span>
-      </p>
-    </div>
+    <Fragment>
+        <h1><span id='hero-section-1'>Dragon</span><span id='hero-section-2'>fly</span></h1>
+    </Fragment>
   )
 }
 

@@ -46,7 +46,7 @@
 }
 
 #favourite-icon {
-  fill: #ffffff; 
+  fill: #fffcf3;
   cursor: pointer;
   transition: fill 0.3s ease;
   margin-right: 12%;

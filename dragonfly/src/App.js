@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import FavouritesPage from "./pages/FavouritesPage";
 import EventsPage from "./pages/EventsPage";
 import EventDetailsPage from "./pages/EventDetailsPage";
+import SearchPage from "./pages/SearchPage";
 import NavigationBar from "./components/NavigationBar";
 import "./pages/GeneralStyling.css"
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/favourites" element={<FavouritesPage />} />
           <Route path="/events" element={<EventsPage />} />
           <Route path="/event/:eventID" element={<EventDetailsPage />} />
+          <Route path="/search" element={<SearchPage />} />
         </Routes>
       </div>
     </BrowserRouter>

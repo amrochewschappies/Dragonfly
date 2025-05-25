@@ -1,6 +1,23 @@
 #eventOTD-image{
     aspect-ratio: 16/9;
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+
+#eventOTD-section{
+    display: flex;
+    text-align: left;
+    padding-left: 2%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+
+main{
     width: 80%;
+    margin: 0 auto; 
 }
 
 .images {
@@ -19,9 +36,43 @@
     display: block;
 }
 
+#eventsCTA-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#eventsCTA-section div{
+    display: block;
+    text-align: left;
+    padding-right: 12%;
+}
+
+#eventsCTA-image{
+    aspect-ratio: 16/9;
+    width: 40%;
+    border-radius: 15px;
+}
+
 #footer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2%;
+}
+
+#cta-button{
+    width: 300px;
+    height: 35px;
+    background-color: #FFC107;
+    border-radius: 23px;
+    transition: all 0.4s;
+}
+
+#cta-button:hover{
+    background-color:  #fffcf3;
+}
+
+#hero-section-2{
+    color: #FFC107;;
 }

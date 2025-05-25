@@ -5,7 +5,7 @@ const EventData = [
         location: "Location",
         date: "date",
         price: "price",
-        description: "description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Music",
     },
     {
@@ -14,7 +14,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Kids",
     }
     ,
@@ -24,7 +24,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Activites",
     }
     ,
@@ -34,7 +34,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Comedy",
     }
     ,
@@ -44,7 +44,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Comedy",
     },
     {
@@ -53,7 +53,7 @@ const EventData = [
         location: "Location",
         date: "date",
         price: "price",
-        description: "description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Music",
     },
     {
@@ -62,7 +62,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Kids",
     }
     ,
@@ -72,7 +72,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Activites",
     }
     ,
@@ -82,7 +82,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Comedy",
     }
     ,
@@ -92,7 +92,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Comedy",
     },
     {
@@ -101,7 +101,7 @@ const EventData = [
         location: "Location",
         date: "date",
         price: "price",
-        description: "description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Music",
     },
     {
@@ -110,7 +110,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Kids",
     }
     ,
@@ -120,7 +120,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Activites",
     }
     ,
@@ -130,7 +130,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Comedy",
     }
     ,
@@ -140,7 +140,7 @@ const EventData = [
         location: "Second Location",
         date: "Second date",
         price: "Second price",
-        description: "Second description",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, alias. A praesentium iste, porro ex non deleniti reiciendis quam ullam quisquam adipisci magni officiis soluta esse, vitae, tenetur facilis expedita?",
         genre: "Comedy",
     },
 ]

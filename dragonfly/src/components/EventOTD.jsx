@@ -17,11 +17,14 @@ function EventOTD() {
     }
 
   return (
-    <section>
-        <p>Explore our featured event of the day</p>
-        <img id='eventOTD-image' src={EventData[EventOTDIndex].image} alt="Picture of the event of the day" />
-        <p>{EventData[EventOTDIndex].name}</p>
-        <p>{EventData[EventOTDIndex].date}</p>
+    <section id='eventOTD-section'>
+        <div>
+            <h5>Explore our featured event of the day!</h5>
+            <img id='eventOTD-image' src={EventData[EventOTDIndex].image} alt="Picture of the event of the day" />
+            <h5>{EventData[EventOTDIndex].name}</h5>
+            <p>{EventData[EventOTDIndex].date}</p>
+        </div>
+        <p>{EventData[EventOTDIndex].description}</p>
     </section>
   )
 }

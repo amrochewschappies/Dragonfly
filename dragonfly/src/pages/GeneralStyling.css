@@ -1,3 +1,42 @@
 body {
     background-color: #fffcf3;
 }
+
+@font-face {
+  font-family: 'Dragonfly';
+  src: url('../assets/fonts/Dragonfly.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+    font-size: 9em;
+    font-family: 'Dragonfly';
+}
+
+h2{
+    font-size: 7em;
+}
+
+h3{
+    font-size: 5em;
+}
+
+h4{
+    font-size: 3em;
+    font-weight: 160;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+h5{
+    font-size: 1.4em;
+    font-weight: 120;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+p{
+    font-size: 1.1em;
+    font-weight: 100;
+}
