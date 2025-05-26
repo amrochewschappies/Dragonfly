@@ -27,7 +27,7 @@ function EventOTD() {
   return (
     <section id="eventOTD-section">
       <div id="first-part" onClick={(e) => {OnViewClick(EventData[EventOTDIndex].id, e)}}>
-        <h5>Explore our featured event of the day!</h5>
+        <h4>Explore our featured event of the day!</h4>
         <img
           id="eventOTD-image"
           src={EventData[EventOTDIndex].image}

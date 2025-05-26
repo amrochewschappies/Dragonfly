@@ -12,8 +12,8 @@ function Highlights() {
   }, []);
 
   return (
-    <div>
-      <h3>Highlights from Our Events!</h3>
+    <div id="highlights-section">
+      <h4>Highlights from Our Events!</h4>
       <p>
         We're excited to share some of the best moments from our events. Check
         out these incredible photos captured during our recent gatherings.

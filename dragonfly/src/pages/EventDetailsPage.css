@@ -63,3 +63,22 @@
 #favourite-icon.filled:hover {
   fill: #ff9800; 
 }
+
+#image-container {
+  position: relative;
+  float: left;
+  display: inline-block; 
+}
+
+#return-button{
+  position: absolute;
+  right: 0px;
+  border-radius: 0 24px 0 24px;
+  background-color: #75757571;
+  fill: #fffcf3;
+  transition: all 0.5s ease;
+}
+
+#return-button:hover{
+  fill:#FFC107;
+}

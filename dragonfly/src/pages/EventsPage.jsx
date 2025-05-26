@@ -7,7 +7,9 @@ import "./EventsPage.css";
 function EventsPage() {
   return (
     <Fragment>
-      <SearchBar />
+      <div className="events-search-bar">
+        <SearchBar />
+      </div>
       <div id="main-container">
         <Filters />
         <EventCards />
