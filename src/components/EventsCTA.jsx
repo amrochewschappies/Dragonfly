@@ -19,7 +19,7 @@ function EventsCTA() {
         </p>
         <button onClick={(event) => {SeeAllEventsClick(event)}} id="cta-button">See All</button>
       </div>
-      <img src="/Images/Origami.jpg" alt="" id="eventsCTA-image"/>
+      <img src="/Images/Origami.jpg" alt="" id="eventsCTA-image" className="responsiveness-hide"/>
     </section>
   );
 }

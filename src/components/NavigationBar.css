@@ -63,3 +63,18 @@
 .responsiveness-hide{
     color: rgb(188, 188, 188);
 }
+
+
+@media (min-width: 1200px) {
+     
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    
+}
+
+
+@media (max-width: 767px) {
+   
+}

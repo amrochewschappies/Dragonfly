@@ -67,7 +67,6 @@
 #image-container {
   position: relative;
   float: left;
-  display: inline-block; 
 }
 
 #return-button{
