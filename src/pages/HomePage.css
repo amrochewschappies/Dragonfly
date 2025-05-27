@@ -5,7 +5,9 @@
 
 #hero-section {
   font-family: "Dragonfly";
+  font-size: 15vw;
 }
+
 
 #hero-section-2 {
   color: #ffc107;
@@ -116,9 +118,11 @@
 @media (max-width: 767px) {
   main {
     width: 100%;
+    margin-top: 8vh;
   }
-  #hero-section {
-    font-size: 15vw;
+
+  #hero-section{
+    margin-bottom: 5vh;
   }
 
   #eventOTD-section {
