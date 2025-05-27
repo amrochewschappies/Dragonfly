@@ -39,11 +39,12 @@ function NavigationBar() {
 
       <div className={`menu-panel ${menuOpen ? 'open' : ''}`}>
         <button className="close-button" onClick={closeMenu}>×</button>
-
+        
         <ul>
-          <li onClick={closeMenu}><Link to={"/"}>Home</Link></li>
-          <li onClick={closeMenu}><Link to={"/events"}>Events</Link></li>
-          <li onClick={closeMenu}><Link to={"/favourites"}>Favourites</Link></li>
+          <p>(Navigation)</p>
+          <li onClick={closeMenu}><Link to={"/"}> Home <span>01</span></Link></li>
+          <li onClick={closeMenu}><Link to={"/events"}>Events <span>02</span></Link></li>
+          <li onClick={closeMenu}><Link to={"/favourites"}>Favourites <span>03</span></Link></li>
         </ul>
       </div>
     </nav>
