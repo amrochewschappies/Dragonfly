@@ -113,6 +113,45 @@
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
+  main {
+    width: 100%;
+    padding: 0 7% 0 7%;
+  }
+
+  #gallery .images {
+    width: 70%;
+  }
+  
+  #eventsCTA-image {
+    aspect-ratio: 16/9;
+    width: 40%;
+    border-radius: 15px;
+  }
+
+  
+  #eventsCTA-section {
+    display: flex;
+    text-align: left;
+    gap: 2%;
+  }
+  
+  #eventOTD-section {
+    text-align: left;
+    gap: 0;
+  }
+
+  #cta-button {
+    width: 300px;
+    height: 35px;
+    background-color: #fffcf3;
+    border-radius: 23px;
+  }
+  
+  #highlights-section {
+    display: block;
+    text-align: left;
+  }
+
 }
 
 @media (max-width: 767px) {

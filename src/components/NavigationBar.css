@@ -121,6 +121,43 @@ li .responsiveness-hide{
   margin-left: 40px;
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: black;
+    position: absolute; 
+    top: 15px; 
+    right: 24px; 
+  }
+
+  .menu-panel ul li a:hover {
+    color: #ffc107;
+  }
+
+  .menu-panel .close-button {
+    text-align: left;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #fffcf3;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .menu-panel .close-button:hover {
+    background: #f1f1f1;
+  }
+}
+
 @media (max-width: 767px) {
   .nav-bar {
     display: none;

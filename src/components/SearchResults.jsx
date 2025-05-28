@@ -53,7 +53,7 @@ function SearchResults() {
           <p style={{ textAlign: "center", padding: "2rem"}}>
             No results found for "<strong>{searchInput}</strong>"
           </p>
-          <button onClick={OnReturnClick}>return</button>
+          <button className="return-button" onClick={OnReturnClick}>return</button>
         </Fragment>
       )}
     </nav>

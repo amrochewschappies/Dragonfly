@@ -80,7 +80,7 @@ function FavouritesPage() {
                 </svg>
               </div>
             </div>
-            <p>{event.description}</p>
+            <p className="responsiveness-hide">{event.description}</p>
           </div>
         ))}
       </ul>
