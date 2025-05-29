@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Dragonfly/static/css/main.48723360.css",
+    "main.js": "/Dragonfly/static/js/main.1568403d.js",
+    "static/media/Dragonfly.ttf": "/Dragonfly/static/media/Dragonfly.cb4133b297c9a8f990c1.ttf",
+    "index.html": "/Dragonfly/index.html",
+    "main.48723360.css.map": "/Dragonfly/static/css/main.48723360.css.map",
+    "main.1568403d.js.map": "/Dragonfly/static/js/main.1568403d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48723360.css",
+    "static/js/main.1568403d.js"
+  ]
+}
