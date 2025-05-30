@@ -1,5 +1,5 @@
 import "./App.css";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import FavouritesPage from "./pages/FavouritesPage";
 import EventsPage from "./pages/EventsPage";
@@ -11,7 +11,7 @@ import "./pages/GeneralStyling.css"
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Cursor />
         <NavigationBar />
@@ -23,7 +23,7 @@ function App() {
           <Route path="/search" element={<SearchPage />} />
         </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
